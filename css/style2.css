@@ -1,0 +1,73 @@
+* {
+   box-sizing: border-box;
+}
+.h_line_1 {
+   background: rgb(237, 237, 237);
+}
+.h_line_1>li {
+   list-style: none;
+   display: inline-block;
+   width: calc(100% / 10);
+   margin: 0 -2px;
+   text-align: center;
+   /* background: gainsboro; */
+}
+.h_line_1 a {
+   text-decoration: none;
+   color: rgb(67, 67, 67);
+   transition: 0.5s;
+}
+.h_line_1 a:hover {
+   text-shadow: 0 0 .65px;
+}
+/* .lang>ul {
+   padding: 0%;
+} */
+.lang>ul>li {
+   padding-bottom: 10px;
+   list-style: none;
+}
+.h_line_2 a {
+   text-decoration: none;
+   color: black;
+}
+.h_line_2>li {
+   list-style: none;
+   display: inline-block;
+   width: calc(100% / 4);
+   margin: 0 -2px;
+   text-align: center;
+   /* background: rgb(107, 105, 105); */
+}
+[alt="лого"] {
+   width: 200px;
+}
+[type="text"] {
+   width: 343px;
+   height: 30px;
+}
+.h_line_2 li {
+   list-style: none;
+}
+.h_line_2 li {
+   vertical-align: middle;
+}
+.h_line_3>li {
+   list-style: none;
+   display: inline-block;
+   width: calc(100% / 6);
+   margin: 0 -2px;
+   text-align: center;
+   background: rgb(0, 0, 0);
+}
+.h_line_3 a {
+   text-decoration: none;
+   color: white;
+}
+.h_line_3 {
+   vertical-align: middle;
+}
+.h_line_3_d {
+   height: 60px;
+   background: black;
+}
