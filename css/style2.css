@@ -40,7 +40,7 @@
    /* background: rgb(107, 105, 105); */
 }
 [alt="лого"] {
-   width: 200px;
+   width: 100px;
 }
 .search {
    width: 500px;
@@ -68,8 +68,12 @@
    font-size: 20px;
 }
 .h_line_3 {
-   margin: -4px;
+   margin: -2px;
    margin-right: -1px;
+   vertical-align: middle;
+}
+.h_line_3_d>.h_line_3>li>a {
+   vertical-align: middle;
 }
 .h_line_3_d {
    width: 100%;
@@ -77,7 +81,7 @@
    background: black;
 }
 .line_one {
-   background: rgb(238, 255, 213);
+   background: rgb(128, 240, 255);
    padding: 10px;
 }
 .line_one,
@@ -116,7 +120,7 @@
    width: 20px;
 }
 .m_line div {
-   background: rgb(240, 240, 240);
+   background: rgb(248, 255, 151);
    border-radius: 2px;
 }
 .card_text {
@@ -127,9 +131,13 @@
    display: inline-block;
    width: calc(100% / 4);
    margin: 0 -2px;
-   transition: text-shadow 1s;
    border-radius: 5px;
    overflow: hidden;
+   padding: 6px;
+   transition: box-shadow 0.5s;
+}
+.m_line>li:hover {
+   box-shadow: 3px 3px 4px;
 }
 .card_photo>img {
    max-width: 100%;
@@ -142,9 +150,6 @@
 .card_text p {
    margin: -0px;
 }
-.m_line>li:hover {
-   box-shadow: 3px 3px 4px;
-}
 .prise li {
    display: inline-block;
    list-style: none;
@@ -156,11 +161,16 @@
 }
 .butt {
    border-radius: 2px;
-   background: greenyellow;
+   background: rgb(128, 240, 255);
    width: 100px;
    height: 25px;
    text-align: center;
-   padding-left: 5px;
+   transition: 1s;
+   /* padding-left: 5px; */
+}
+.butt:hover {
+   background: rgb(14, 119, 255);
+   font-size: 20px;
 }
 .m_line>li {
    border: 2px black;
