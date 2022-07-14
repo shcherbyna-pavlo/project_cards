@@ -14,11 +14,11 @@
 }
 .h_line_1 a {
    text-decoration: none;
-   color: rgb(67, 67, 67);
+   color: rgb(97, 96, 96);
    transition: 0.5s;
 }
 .h_line_1 a:hover {
-   text-shadow: 0 0 .65px;
+   text-shadow: 0 0 .20px black;
 }
 /* .lang>ul {
    padding: 0%;
@@ -43,8 +43,11 @@
    width: 200px;
 }
 [type="text"] {
-   width: 343px;
+   width: 500px;
    height: 30px;
+}
+.job {
+   text-align: right;
 }
 .h_line_2 li {
    list-style: none;
@@ -58,16 +61,60 @@
    width: calc(100% / 6);
    margin: 0 -2px;
    text-align: center;
-   background: rgb(0, 0, 0);
 }
 .h_line_3 a {
    text-decoration: none;
    color: white;
+   font-size: 20px;
 }
 .h_line_3 {
-   vertical-align: middle;
+   margin: -4px;
+   margin-right: -1px;
 }
 .h_line_3_d {
    height: 60px;
    background: black;
+   vertical-align: middle;
+}
+.m_line>li {
+   list-style: none;
+   display: inline-block;
+   width: calc(100% / 4);
+   margin: 0 -2px;
+   padding: 0 5px;
+   transition: text-shadow 1s;
+   border-radius: 5px;
+   border: 1px black;
+   overflow: hidden;
+}
+.card_photo>img {
+   max-width: 100%;
+   height: auto;
+   vertical-align: top;
+}
+.card_text {
+   padding: 10px 10px;
+}
+.card_text p {
+   margin: -0px;
+}
+.m_line>li:hover {
+   box-shadow: 3px 3px 4px;
+}
+.prise li {
+   display: inline-block;
+   list-style: none;
+   margin-top: 50px;
+}
+.prise a {
+   text-decoration: none;
+   color: black;
+}
+.butt {
+   border-radius: 2px;
+   background: greenyellow;
+   width: 100px;
+   height: 25px;
+   text-align: center;
+   padding-left: 5px;
 }
