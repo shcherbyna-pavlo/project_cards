@@ -3,6 +3,7 @@
 }
 body {
    margin: 0;
+   margin-right: -2px;
 }
 h1 {
    margin-left: 10px;
