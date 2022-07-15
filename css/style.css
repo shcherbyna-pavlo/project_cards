@@ -86,7 +86,7 @@
    margin: 0 -2px;
 }
 .line_one {
-   background: rgb(128, 240, 255);
+   background: rgb(203, 249, 255);
    padding: 10px;
 }
 .line_one {
@@ -107,9 +107,6 @@
 }
 .line_one button {
    cursor: pointer;
-}
-.line_two {
-   width: 75%;
 }
 .filtr {
    width: 300px;
@@ -142,8 +139,11 @@ input[type="radio"]:checked+span {
    cursor: pointer;
 }
 .m_line div {
-   background: rgb(248, 255, 151);
+   background: rgb(251, 252, 197);
    border-radius: 2px;
+}
+.line_two {
+   width: 75%;
 }
 .card_text {
    font-size: 15px;
@@ -155,11 +155,11 @@ input[type="radio"]:checked+span {
    margin: 0 -2px;
    border-radius: 5px;
    overflow: hidden;
-   padding: 6px;
+   padding: 0px 6px 6px;
    transition: box-shadow 0.5s;
 }
 .m_line>li:hover {
-   box-shadow: 3px 3px 4px;
+   box-shadow: 2px 2px 10px;
 }
 .card_photo>img {
    max-width: 100%;
@@ -170,7 +170,7 @@ input[type="radio"]:checked+span {
    padding: 10px 10px;
 }
 .card_text p {
-   margin: -0px;
+   margin: 0px;
 }
 .prise {
    text-align: center;
@@ -195,9 +195,6 @@ input[type="radio"]:checked+span {
 .butt:hover {
    background: rgb(30, 127, 253);
    text-shadow: 0 0 10px white;
-}
-.m_line>li {
-   border: 2px black;
 }
 .foot ul {
    display: inline-block;
