@@ -1,6 +1,12 @@
 * {
    box-sizing: border-box;
 }
+body {
+   margin: 0;
+}
+h1 {
+   margin-left: 10px;
+}
 .h_line_1 {
    background: rgb(237, 237, 237);
    padding-left: 0px;
@@ -77,6 +83,7 @@
 .mai {
    display: inline-block;
    padding-left: 0px;
+   margin-left: 10px;
 } 
 .line_one,
 .line_two {
